@@ -1,0 +1,88 @@
+main {
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    min-height: 400px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Calibri, serif;
+    border: 2px solid rgb(237, 233, 233);
+
+}
+
+h3 {
+    text-align: center;
+}
+
+input {
+    border: 2px solid rgb(237, 233, 233);
+    width: 50%;
+    height: 25px;
+
+    padding: 10px;
+    display: inline-block;
+
+}
+button {
+    width: 70px;
+    height: 48px;
+    background-color: rgb(46, 46, 234);
+    color: beige;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.box {
+    margin-top: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    border: 3px solid violet;
+    display: inline-block;
+}
+.box p {
+    display: inline-block;
+    width: 80%;
+}
+
+.box img{
+    display: inline-block;
+    width: 30px;
+}
+/*.cross {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    margin-top: 30px;*/
+
+/*}*/
+
+/*.done {*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    min-height: 250px;*/
+/*    max-height: 350px;*/
+/*    overflow-y: scroll;*/
+/*    padding-left: 15px;*/
+/*    margin-top: 15px;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+
+.cancel{
+    text-decoration: line-through;
+}
+
+#tasklist p{
+    user-select: none;
+}
